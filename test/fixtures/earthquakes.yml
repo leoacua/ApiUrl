@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ids: MyString
+  mag: 1.5
+  place: MyString
+  time: 
+  url: MyString
+  tsunami: 1
+  mag_type: MyString
+  title: MyString
+  feature_type: MyString
+  geometry_longitude: 1.5
+  geometry_latitude: 1.5
+  geometry_altitude: 1.5
+
+two:
+  ids: MyString
+  mag: 1.5
+  place: MyString
+  time: 
+  url: MyString
+  tsunami: 1
+  mag_type: MyString
+  title: MyString
+  feature_type: MyString
+  geometry_longitude: 1.5
+  geometry_latitude: 1.5
+  geometry_altitude: 1.5
