@@ -1,5 +1,3 @@
-# README
-
 Este README normalmente documentaría los pasos necesarios para poner en marcha la aplicación.
 
 Cosas que puedes querer cubrir: 
@@ -59,7 +57,6 @@ Cosas que puedes querer cubrir:
   <<: *default
   database: terre
 
-
 * Cómo ejecutar el conjunto de pruebas
  Consume el api y la carga la base de datos 
 1 - http://localhost:3000/fetch_earthquake_data 
@@ -67,5 +64,3 @@ Cosas que puedes querer cubrir:
 2 - http://localhost:3000/api/earthquakes/
  renderiza la información de un item de BD en json con los comentarios
 3 - http://localhost:3000/api/earthquakes/:id <- un numero 
- 
-end 
