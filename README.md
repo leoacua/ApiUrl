@@ -19,16 +19,16 @@ Cosas que puedes querer cubrir:
  rails new ApiUrl --database=postgresql
 
  Se agregan las siguientes gemas al archivo Gemfile
-  # Agregamos la gema 'pg' para PostgreSQL
+   Agregamos la gema 'pg' para PostgreSQL
   gem 'pg'
 
-# agregamos la gema 'httparty'
+ agregamos la gema 'httparty'
   gem 'httparty'
 
-# agregamos la gema 'rack-cors'
+ agregamos la gema 'rack-cors'
   gem 'rack-cors'
 
-# agregamos la gema 'rake'
+ agregamos la gema 'rake'
  gem 'rake' 
 
 * Configuración y Creacion del API
