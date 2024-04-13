@@ -73,7 +73,7 @@ gem 'pg'
 gem 'httparty'
 
 # agregamos la gema 'rack-cors'
-gem 'rack-cors'
+gem 'rack-cors', require: 'rack/cors'
 
 # agregamos la gema 'rake'
 gem 'rake'
