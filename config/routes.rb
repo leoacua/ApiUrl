@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   namespace :api do
-    resources :earthquakes, only: [:index, :show, :create, :update, :destroy]
-    resources :comments, only: [:index, :create, :update, :destroy]
+    resources :earthquakes, only: [:index, :show, :create, :update, :destroy] do
+     resources :comments, only: [:index, :create, :update, :destroy]
+    end
    
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
